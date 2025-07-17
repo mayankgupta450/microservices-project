@@ -43,6 +43,4 @@ public class Order {
     
     
     
-
-    // getters/setters
 }
