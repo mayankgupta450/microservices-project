@@ -17,17 +17,17 @@ A simple microservices system using Spring Boot & Docker with three services:
 :-> How to Run Each Service
 
 :-> User Service
-- Port: 8081
+- Port: 8081 http://localhost:8081/swagger-ui/index.html#/
 - DB: H2 (in-memory)
 - Run: Run as java application
 
 :-> Product Service
-- Port: 8082
+- Port: 8082  http://localhost:8082/swagger-ui/index.html#/
 - DB: MongoDB (run via Docker)
 - Run: Run as java application
 
 :->Order Service
-- Port: 8083
+- Port: 8083  http://localhost:8083/swagger-ui/index.html#/
 - DB: MySQL (set up locally)
 - Depends on: `user-service` and `product-service`
 - Run:  Run as java application
