@@ -46,7 +46,7 @@ public class ProductController {
 	public ResponseEntity<Product> getByName(@PathVariable(name="name") String name) {
 	    return repo.findByName(name)
 	        .map(ResponseEntity::ok)
-	        .orElse(ResponseEntity.notFound().build()); // ✅ return proper 404
+	        .orElse(ResponseEntity.notFound().build()); 
 	}
 
 
